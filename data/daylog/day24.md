@@ -24,3 +24,11 @@
 ```
 * 做了静态资源和404界面，这样就可以把东西放到网页上用kali wget了
 * gitpage突然不自动更新，只能删库重建才行。
+* 解决了不用createWebHashHistory不能定向的问题
+```js
+import { createRouter,createWebHashHistory } from "vue-router";
+const router=createRouter({
+    history:createWebHashHistory(process.env.BASE_URL),
+    // mode:'hash'
+}
+```
