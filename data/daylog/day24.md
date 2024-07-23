@@ -5,7 +5,7 @@
 // App.js @/App.js 里面应该放路由标签的而不是什么helloworld component 
 
 <style lang="scss">
-@import "./assets/css2/style_.scss";
+@import "./assets/css2/style.scss";
 </style>
 
 <template>
